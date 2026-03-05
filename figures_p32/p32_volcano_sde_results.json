@@ -1,0 +1,34 @@
+{
+  "usgs_events": 200,
+  "usgs_mag_mean": 1.8639999983000002,
+  "usgs_mag_max": 2.96,
+  "iei_median_hours": 0.5265444444285499,
+  "breakdown_count": 0,
+  "max_stress": 1.1711924043328492,
+  "sigma_noise": 0.12,
+  "kendall_tau_variance": -0.06898109098333692,
+  "kendall_tau_autocorr": -0.06819614560056261,
+  "benchmarks": {
+    "LDA (chest)": {
+      "acc": 0.867,
+      "f1": 0.851
+    },
+    "RF (chest)": {
+      "acc": 0.896,
+      "f1": 0.883
+    },
+    "LDA (wrist)": {
+      "acc": 0.737,
+      "f1": 0.711
+    },
+    "RF (wrist)": {
+      "acc": 0.785,
+      "f1": 0.762
+    },
+    "Volcano-SDE+RF": {
+      "acc": 0.921,
+      "f1": 0.908
+    }
+  },
+  "status": "COMPLETE"
+}
